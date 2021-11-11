@@ -15,10 +15,10 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav col-lg-12 d-flex justify-content-evenly">
                             <div className="col-lg-6 d-flex justify-content-end">
-                                <Link style={{ textDecoration: "none", marginRight: "4%" }}>
+                                <Link to="/holdUp" style={{ textDecoration: "none", marginRight: "4%" }}>
                                     <div className="navbar-brand" style={{ color: "#DC956D" }}>Hold_up</div>
                                 </Link>
-                                <Link style={{ textDecoration: "none" }}>
+                                <Link to="/reto" style={{ textDecoration: "none" }}>
                                     <div className="navbar-brand" >_Retos</div>
                                 </Link>
                             </div>

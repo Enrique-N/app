@@ -11,7 +11,7 @@ const Registro = () => {
     }
 
     return (
-        <div className="container-fluid d-flex justify-content-center" style={{ backgroundColor: "#70AF90", width: "100vw", height: "100vh" }}>
+        <div className="container-fluid d-flex justify-content-center" style={{ backgroundColor: "#416C81", height: "100vh" }}>
             <div className="row col-lg-4 border" style={{ borderRadius: "25px", backgroundColor: "white", height: "550px", marginTop: "70px" }}>
                 <h1 class="text-center align-self-center" style={{ color: "#E36164" }}>Registrarme</h1>
                 <form action="/signUp" method="post" className="text-start" style={{ color: "#70AF90" }}>

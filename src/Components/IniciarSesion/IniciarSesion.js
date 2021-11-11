@@ -7,7 +7,7 @@ const IniciarSesion = () => {
     }
 
     return (
-        <div className="container-fluid d-flex justify-content-center" style={{ backgroundColor: "#416C81", height: "100vh", width: "100vw" }}>
+        <div className="container-fluid d-flex justify-content-center" style={{ backgroundColor: "#416C81", height: "100vh" }}>
             <div className="row col-lg-5 border p-4" style={{ borderRadius: "25px", backgroundColor: "white", height: "550px", marginTop: "70px" }}>
                 <h1 class="text-center" style={{ color: "#416C81" }}>Iniciar Sesión</h1>
                 <form action="/signUp" method="post" className="text-start" style={{ color: "#70AF90" }}>

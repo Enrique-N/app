@@ -5,6 +5,7 @@ import Ciudadano from "../SVG/ilustracion_perfil_ciudadano.svg"
 import Carrusel from '../Carrusel/Carrusel'
 
 const Home = () => {
+
     return (
         <div class="container-fluid">
             <div className="row d-flex justify-content-center" style={{ backgroundColor: "#84AC8F", height: "523px", paddingTop: "70px" }}>
@@ -13,7 +14,7 @@ const Home = () => {
                     <h3 style={{ color: "white" }}>Explora la plataforma y ayuda a emprededorxs a resolver retos de su proyecto a través de la inteligencia colectiva</h3>
                     <div class="btn border mt-3" style={{ backgroundColor: "#416C81", color: "white", borderRadius: "15px", width: "232px" }}>Quiero Participar</div>
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-5 align-self-center">
                     <Ilustracion />
                 </div>
             </div>
